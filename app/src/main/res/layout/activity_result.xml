@@ -5,27 +5,70 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:gravity="center_horizontal"
     android:orientation="vertical"
-    android:gravity="center"
     tools:context=".ResultActivity">
 
-    <TextView
-        android:id="@+id/tv_result"
-        android:textSize="66sp"
-        android:textStyle="bold"
-        android:maxLength="5"
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:id="@+id/vg_header"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        tools:text="26.66" />
+        android:background="@drawable/gradient_bg"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:src="@drawable/ic_weight"
+            app:tint="@color/white" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:text="Calculadora IMC"
+            android:textColor="@color/white"
+            android:textSize="32sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="24dp"
+            android:text="Confira abaixo o seu resultado e classificacao:"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_result"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="50dp"
+            android:textColor="@color/white"
+            android:maxLength="5"
+            android:textSize="66sp"
+            android:textStyle="bold"
+            tools:text="26.66" />
+
+    </LinearLayout>
 
     <TextView
         android:id="@+id/tv_classificacao_label"
+        android:layout_marginTop="48dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="A classificacao do seu IMC e: " />
 
     <TextView
         android:id="@+id/tv_classificacao"
+        android:textSize="24sp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textStyle="bold"
