@@ -13,9 +13,6 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        /*
-        * Recuperar os componentes EditText
-        * Criar uma variavel e associar o componente de UI<EditText> */
 
         val edtPeso = findViewById<TextInputEditText>(R.id.edt_peso)
         val edtAltura = findViewById<TextInputEditText>(R.id.edt_altura)
@@ -36,15 +33,9 @@ class MainActivity : AppCompatActivity() {
                 val alturaQ2 = altura * altura
                 val resultado = peso / alturaQ2
 
-                // Navegar para a proxima tela
-                // Criar o layout da proxima tela
-                // Passar dados (resultado) para a proxima tela
-
                 val intent = Intent(this, ResultActivity::class.java)
                 intent.putExtra(KEY_RESULT_IMC, resultado)
                 startActivity(intent)
-
-                println("Renan Borges " + resultado)
 
             }
         }

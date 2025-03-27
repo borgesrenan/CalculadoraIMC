@@ -6,4 +6,6 @@
     <color name="primary_400">#cd00ea</color>
     <color name="primary_900">#5c00d2</color>
 
+    <color name="instructionText">#7E57C2</color>
+
 </resources>

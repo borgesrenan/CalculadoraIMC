@@ -40,7 +40,7 @@
             android:layout_marginStart="24dp"
             android:layout_marginTop="8dp"
             android:layout_marginEnd="24dp"
-            android:text="Confira abaixo o seu resultado e classificacao:"
+            android:text="Confira abaixo o seu resultado e classificação:"
             android:textColor="@color/white"
             android:textStyle="bold" />
 
@@ -60,11 +60,11 @@
     </LinearLayout>
 
     <TextView
-        android:id="@+id/tv_classificacao_label"
+        android:id="@+id/tv_classificação_label"
         android:layout_marginTop="48dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="A classificacao do seu IMC e: " />
+        android:text="A classificação do seu IMC e: " />
 
     <TextView
         android:id="@+id/tv_classificacao"
@@ -73,4 +73,45 @@
         android:layout_height="wrap_content"
         android:textStyle="bold"
         tools:text="NORMAL" />
+
+    <TextView
+        android:id="@+id/tv_instrucao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="20dp"
+        android:textColor="#7E57C2"
+        android:textStyle="italic"
+        tools:text="Renan Araujo Borges - Charles Stewart - 5/6 Parnell Square East - Dublin 20 - D01 N253" />
+
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <Button
+        android:id="@+id/btn_tabela"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="Ver Tabela" />
+
+    <Button
+        android:id="@+id/btn_recalcular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="8dp"
+        android:text="Recalcular" />
+
+
 </LinearLayout>
+
+
+
