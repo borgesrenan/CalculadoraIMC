@@ -64,7 +64,7 @@
         android:layout_marginTop="48dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="A classificação do seu IMC e: " />
+        android:text="A classificação do seu IMC é: " />
 
     <TextView
         android:id="@+id/tv_classificacao"
@@ -84,7 +84,7 @@
         android:layout_marginBottom="20dp"
         android:textColor="#7E57C2"
         android:textStyle="italic"
-        tools:text="Renan Araujo Borges - Charles Stewart - 5/6 Parnell Square East - Dublin 20 - D01 N253" />
+        tools:text="Você está com o peso ideal. Continue com seus bons hábitos alimentares e pratique atividades físicas regularmente!" />
 
     <Space
         android:layout_width="0dp"
