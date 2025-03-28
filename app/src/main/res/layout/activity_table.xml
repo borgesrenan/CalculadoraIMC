@@ -218,7 +218,7 @@
         android:layout_margin="16dp"
         android:layout_marginTop="100dp"
         android:layout_marginBottom="200dp"
-        android:text="HOME" />
+        android:text="Voltar ao Início" />
 
 
 </LinearLayout>
