@@ -1,15 +1,47 @@
-# Calculadora IMC
-Desc
+# 📱 BMI Calculator – Kotlin Android App
+
+This is my first Android project built using **Kotlin**: a simple and functional **BMI (Body Mass Index) Calculator**.
+
+The app allows users to input their weight and height, calculate their BMI, and view the result along with a **health classification** (like "Healthy Weight", "Overweight", etc.) and a **personalized message with recommendations**.
+
+---
+
+## ✨ Features
+
+- Weight and height input fields using Material Design
+- BMI calculated automatically
+- Health classification based on the official BMI table
+- Tailored health advice based on the result
+- BMI reference table screen
+- Screen-to-screen navigation using `Intent`
+- Responsive layout using `ViewCompat` and `WindowInsetsCompat`
+
+---
+
+## 🛠 Technologies Used
+
+- Kotlin
+- Android SDK
+- Material Components (`TextInputEditText`, `Snackbar`)
+- `Intent` navigation between activities
+- `ViewCompat` & `WindowInsetsCompat` for responsive UI
+- XML Layouts with `LinearLayout`
 
 ## :camera_flash: Screenshots
-<!-- You can add more screenshots here if you like -->
-Screenshots
 
-## Tecnologias
-Techs
+<table>
+  <tr>
+    <td><img src="https://github.com/user-attachments/assets/60a18cbd-1cae-41a4-83c6-ac1e81d664fe" width="250"/></td>
+    <td><img src="https://github.com/user-attachments/assets/71f5fcc9-f369-4046-ac5a-f9a682170228" width="250"/></td>
+    <td><img src="https://github.com/user-attachments/assets/b3483391-733e-42b7-8bc9-87e024c2edf6" width="250"/></td>
+  </tr>
+</table>
+
+
 
 
 ## License
+
 ```
 The MIT License (MIT)
 
